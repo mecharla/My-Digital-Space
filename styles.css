@@ -1,0 +1,255 @@
+body{
+    background-color: #1A1A1A;
+    font-style: Roboto;
+}
+
+.mylogo{
+    height: 8.5rem;
+    width: 8.5rem;
+}
+
+.my-logo{
+    height: 5rem;
+    width: 4rem;
+}
+
+.navbar-nav{
+    font-size: 1.2rem;
+}
+
+#navitem1:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+#navitem2:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+#navitem3:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+#navitem4:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+#navitem5:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+#navitem6:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.typing-text{
+    color: #9085F1;
+}
+
+.homesection{
+    margin-top: 6rem;
+}
+
+.myimg{
+    height: 22.5rem;
+    width: 16.5rem;
+    border: solid;
+    border-width: 0.4rem;
+    border-color: white;
+    border-radius: 150px;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+}
+
+.social-icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.2rem;
+    height: 2.2rem;
+    background-color: transparent;
+    border: 0.2rem solid #E60073;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    margin: 0rem 1rem 2rem 0rem; 
+    transition: 0.3s ease;
+    color: #E60073;
+}
+
+.social-icons a:hover{
+    color: white;
+    transform: scale(1.1) translateY(-5px);
+    background-color: #9085F1;
+    box-shadow: 0  0 25px goldenrod;
+}
+
+.contact-button{
+    width: 9rem;
+    padding: 0rem 1rem 0.3rem 1rem;
+    background-color: black;
+    border-radius: 7px;
+    font-size: 1.3rem;
+    color: #9085F1;
+    font-weight: 600;
+    border: 2px solid white;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.contact-button:hover{
+    transform: scale3d(1.03);
+    background-color: #E60073;
+    color: white;
+    box-shadow: 0 0 25px goldenrod;
+}
+
+.horizontal-style{
+    background-color: goldenrod;
+    height: 0.2rem;
+}
+
+.aboutsection{
+    padding: 5rem 0.5rem;
+}
+
+.name-text{
+    color: #9085F1;
+}
+
+.about-text{
+    color: white;
+    font-size: 1.1rem;
+    font-style: "Roboto",sans-serif;
+}
+
+.downloadbtn{
+    width: 12rem;
+}
+
+.skillsection{
+    padding: 5rem 0.5rem;
+}
+
+.skill-card{
+    color: white;
+    border-radius: 1rem;
+    margin: 2rem 1rem;
+    padding: 1rem;
+}
+
+.skill-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0  0 35px #9085F1;
+}
+
+.servicesection{
+    padding: 5rem 0.5rem;   
+}
+
+.contactsection{
+    padding: 5rem 0.5rem; 
+}
+
+.contact-card{
+    background: rgba(255, 255, 255, 0.08);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.contact-form {
+    background: white(255, 255, 255, 0.08);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+  }
+  
+  .form-control {
+    background: white(255, 255, 255, 0.08);
+    border: none;
+    color: white;
+  }
+  
+  .form-control::placeholder {
+    color: black;
+  }
+
+.form-textarea{
+    resize: none;
+}
+
+.sendbtn{
+    width: 7rem;
+    background: black;
+    border-color: white;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    color: #9085F1;
+    font-weight: 500;
+}
+
+.contact-card-icons{
+    margin: 1rem 1rem;
+}
+
+.projectsection{
+    padding: 5rem 0.5rem;
+}
+
+.flip-container {
+    perspective: 1000px; 
+    margin: 1rem 0;
+  }
+  
+  .flip-card {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d; 
+    transition: transform 0.6s;
+  }
+  
+
+  .flip-card-front {
+    background-color: black; 
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: solid;
+    border-width: 2px;
+    border-color: #555;
+    border-radius: 1rem;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+ 
+  .flip-card-back {
+    background-color: #111; 
+    color: #999;
+    padding: 15px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; 
+    transform: rotateY(180deg); 
+  }
+  
+  .flip-container:hover .flip-card {
+    transform: rotateY(180deg);
+    border-color:goldenrod ;
+  }
+
+  
